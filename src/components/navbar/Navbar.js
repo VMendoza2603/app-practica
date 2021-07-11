@@ -10,7 +10,7 @@ const Navbar = () => {
       setUser(null)
     }
     return(
-        <nav className='navbar navbar-light bg-gradient' Style='background-color: #100E0E'>
+        <nav className='navbar navbar-light bg-gradient sticky-top' Style='background-color: #383636'>
             <div className='container-fluid'>
                 <span className='navbar-brand mb-0 fs-4 text-white'>User:{user? user.nombre :"Desconocido"}</span>
                 {user 
